@@ -14,7 +14,7 @@ You can generate 200 million bytes of shit and test it. On my old server it runs
 It will say if you used it wrong, but you will like to follow there steps:
 1. Create "top3bytes.c" in the current directory.
 2. Compile it: `gcc -Wall -Wextra -O2 -o top3bytes top3bytes.c`
-3. Run it on any of your files: `./top3bytes `
+3. Run it on any of your files: `./top3bytes <FILENAME>`
 ### Moments
 On random files it will most likely answer like this:
 ```
